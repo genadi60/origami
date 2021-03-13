@@ -1,0 +1,53 @@
+.Footer {
+    width: 100%;
+    height: 150px;
+    background-color: #ffa000;
+    color: #234465;
+    border-top: 2px solid #234465;
+    border-bottom: 2px solid #234465;
+    margin-bottom: 1%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.Footer p {
+    text-align: center;
+    font-weight: bold;;
+}
+
+footer .ListItem a {
+    color: #234465;
+    text-decoration: none;
+}
+
+footer .ListItem {
+    display: inline-block;
+    height: auto;
+    margin-right: 2%;
+    cursor: pointer;
+    padding: 0.5%;
+    margin: 0.1%;
+    vertical-align: top;
+}
+
+footer .ListItem:nth-child(1) {
+    margin-left: 1%;
+}
+
+footer .ListItem:not(:last-child) {
+    padding: 2%;
+    margin-top: 1.5%;
+    border-bottom: 2px solid #234465;
+}
+
+footer .ListItem:hover {
+    border-bottom: none;
+    border-top: 2px solid #234465;
+    font-weight: bold;
+}
+
+footer .ListItem a img{
+    width: 100px;
+    height: 100px;
+}
