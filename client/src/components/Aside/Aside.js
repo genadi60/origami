@@ -18,7 +18,7 @@ const Aside = () => {
                 <ListItem> Going to 11 </ListItem>
             </ul>
         </aside>
-    )
+    );
 };
 
 export default Aside;

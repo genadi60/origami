@@ -9,7 +9,7 @@ const Posts = () => {
             <Post>Lorem ipsum dolor sit amet, consectetur adip</Post>
             <Post>Lorem ipsum dolor sit amet, consectetur adip</Post>
         </div>
-    )
+    );
 };
 
 export default Posts;

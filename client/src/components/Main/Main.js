@@ -11,7 +11,7 @@ const Main = () => {
                 <Posts/>
             </main>
         </div>
-    )
+    );
 };
 
 export default Main;
