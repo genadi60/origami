@@ -14,14 +14,14 @@ aside .ListItem {
     border-right: 2px solid #234465;
     margin-bottom: 11%;
     height: 5vh;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 aside .ListItem a {
     color: #234465;
     text-align: center;
     text-decoration: none;
-    padding-top: 5%;
+    /*padding-top: 1px;*/
     height: 60%;
     display: block;
 }

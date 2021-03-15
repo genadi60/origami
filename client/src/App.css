@@ -10,61 +10,24 @@
     margin: 0 auto;
 }
 
-.Container {
+div .Container {
     margin-top: 8.5%;
     padding: 0.5%;
     /* border: 1px solid purple; */
     margin-bottom: 0.1%;
 }
 
-
-
-footer .Link_listItem:nth-child(1) {
-  margin-left: 1%;
+.Main {
+    display: inline-block;
+    width: 83%;
+    height: auto;
+    /* border:1px solid blue; */
+    margin-bottom: 5%;
 }
 
-
-
-footer .Link_listItem:not(:last-child) {
-  padding: 2%;
-  margin-top: 1.5%;
-  border-bottom: 2px solid #234465;
+.Main h1 {
+    text-align: center;
+    color: #234465;
+    text-decoration: underline;
+    margin-bottom: 2%;
 }
-
-
-
-footer .Link_listItem:hover {
-  border-bottom: none;
-  border-top: 2px solid #234465;
-  font-weight: bold;
-}
-
-aside .Link_listItem {
-  display: block;
-  width: 98%;
-  border-left: 2px solid #234465;
-  border-right: 2px solid #234465;
-  margin-bottom: 11%;
-  height: 5vh;
-  text-align: center;
-}
-
-aside .Link_listItem a {
-  color: #234465;
-  text-align: center;
-  text-decoration: none;
-  padding-top: 5%;
-  height: 60%;
-  display: block;
-}
-
-aside .Link_listItem:hover {
-  border-left: none;
-  border-right: none;
-  font-weight: bold;
-  border-top: 2px solid #234465;
-  border-bottom: 2px solid #234465;
-  color: #ffa000;
-}
-
-/* Link Styles */

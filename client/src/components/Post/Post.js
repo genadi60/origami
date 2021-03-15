@@ -1,16 +1,16 @@
 import './Post.css';
 
-const Post = (props) => {
+const Post = ({post}) => {
     return (
         <div className="Post">
             <img src="/blue-origami-bird.png" alt="Blue origami bird"></img>
             <p className="Description">
-                {props.children}
+                {post.description}
             </p>
             <div>
                 <span>
-                    <small>Author:</small>
-                    Some Anonymously
+                    <small>Author: </small>
+                    {post.author}
                 </span>
             </div>
         </div>
